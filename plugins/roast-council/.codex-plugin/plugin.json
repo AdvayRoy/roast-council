@@ -1,0 +1,35 @@
+{
+  "name": "roast-council",
+  "version": "2.0.0",
+  "description": "Evidence-calibrated adversarial review for ideas, plans, products, architectures, artifacts, decisions, and completed work.",
+  "author": {
+    "name": "Advay Roy Sarkar",
+    "url": "https://github.com/AdvayRoy"
+  },
+  "homepage": "https://github.com/AdvayRoy/roast-council",
+  "repository": "https://github.com/AdvayRoy/roast-council",
+  "license": "MIT",
+  "keywords": [
+    "adversarial-review",
+    "decision-quality",
+    "evidence",
+    "product-strategy",
+    "architecture-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ROAST Council",
+    "shortDescription": "Evidence-bound adversarial review with a decisive ruling.",
+    "longDescription": "ROAST Council reviews ideas, plans, products, architectures, artifacts, decisions, and completed work through independent Advocate, Red Team, and Reality Check positions before a Judge gives one profile-specific verdict and the highest-leverage correction.",
+    "developerName": "Advay Roy Sarkar",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "ROAST: A B2B AI workflow for schools.",
+      "ROAST this architecture and tell me what to delete.",
+      "ROAST the work Codex just completed."
+    ]
+  }
+}
